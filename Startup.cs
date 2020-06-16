@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Portfolio_Website.Models;
 
 namespace Portfolio_Website
 {
@@ -13,7 +14,7 @@ namespace Portfolio_Website
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(option => option.EnableEndpointRouting = false);
-
+            services.AddSingleton<Portfolio, Profile>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

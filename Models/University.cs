@@ -1,6 +1,6 @@
 ﻿namespace Portfolio_Website.Models
 {
-    public class University : Portfolio
+    public class University
     {
         private string University_Name { get; set; }
         private string University_Department { get; set; }
@@ -9,12 +9,11 @@
 
         public University()
         {
-
+            University_Name = "National University Of Computer & Emerging Sciences.";
+            University_Department = "Computer Science";
+            About_University_Life = "";
+            Grades_In_University = "";
         }
 
-        public void Display()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }

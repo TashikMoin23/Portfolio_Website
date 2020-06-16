@@ -18,3 +18,15 @@ C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\s
 C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.dll
 C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.pdb
 C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.genruntimeconfig.cache
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\bin\Debug\netcoreapp3.1\Portfolio_Website.Views.dll
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\bin\Debug\netcoreapp3.1\Portfolio_Website.Views.pdb
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.RazorAssemblyInfo.cache
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.RazorAssemblyInfo.cs
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.TagHelpers.input.cache
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.TagHelpers.output.cache
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.RazorCoreGenerate.cache
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.RazorTargetAssemblyInfo.cs
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.Views.pdb
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.csproj.CopyComplete
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout_Design.cshtml.g.cs

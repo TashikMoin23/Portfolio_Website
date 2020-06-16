@@ -14,6 +14,7 @@ namespace Portfolio_Website.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Title = "Home | Portfoliooo";
             return View(_Portfolio);
         }
 

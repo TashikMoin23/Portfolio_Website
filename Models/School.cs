@@ -1,6 +1,6 @@
 ﻿namespace Portfolio_Website.Models
 {
-    public class School : Portfolio
+    public class School
     {
         private string School_Name { get; set; }
         private string School_Department { get; set; }
@@ -9,12 +9,11 @@
 
         public School()
         {
-
+            School_Name = "Blue Horizon School";
+            School_Department = "Pre-Engineering";
+            About_School_Life = "";
+            Grades_In_School = "";
         }
 
-        public void Display()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }
