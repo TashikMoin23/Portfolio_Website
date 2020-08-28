@@ -24,8 +24,8 @@ namespace Portfolio_Website
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseStaticFiles();
             app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
             app.UseRouting();
 
