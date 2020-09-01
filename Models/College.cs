@@ -9,8 +9,8 @@
 
         public College()
         {
-            College_Name = "Govt. Dehli College";
-            College_Department = "Pre-Engineering";
+            College_Name = "Govt. Dehli College, Karachi.";
+            College_Department = "Pre-Engineering.";
             About_College_Life = "";
             Grades_In_College = "";
         }

@@ -9,8 +9,8 @@
 
         public School()
         {
-            School_Name = "Blue Horizon School";
-            School_Department = "Pre-Engineering";
+            School_Name = "Blue Horizon School, Karachi.";
+            School_Department = "Pre-Engineering.";
             About_School_Life = "";
             Grades_In_School = "";
         }

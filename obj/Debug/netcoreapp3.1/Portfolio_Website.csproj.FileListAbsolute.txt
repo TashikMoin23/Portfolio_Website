@@ -30,3 +30,8 @@ C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\P
 C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.Views.pdb
 C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Portfolio_Website.csproj.CopyComplete
 C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout_Design.cshtml.g.cs
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Razor\Views\Overview\index.cshtml.g.cs
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Razor\Views\Contributions\Index.cshtml.g.cs
+C:\Tashik\My_Resources\C#\My_Website\Portfolio_Website\obj\Debug\netcoreapp3.1\Razor\Views\Portfolio\Index.cshtml.g.cs
