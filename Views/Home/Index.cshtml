@@ -1,7 +1,29 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout_Design.cshtml";
 }
-<div class="container">
-    <h1> Welcome To My Portfolio Website ! </h1>
-    <h1> <img src="~/Img/MyProfilePicture.jpg" alt=""> </h1>
-</div>
+
+@section DisplayPicture
+{
+    <section id="showcase-home">
+        <div class="container">
+            <h1> Welcome To My Website </h1>
+            <h1> <img src="~/Img/MyProfilePicture.jpg" alt=""> </h1>
+        </div>
+        <div>
+            <h3 class="introduction"> Tashik Moin. </h3>
+            <h3 class="introduction"> PlugCloud, INC. </h3>
+            <h3 class="introduction"> MLSA, Microsoft. </h3>
+        </div>
+    </section>
+}
+
+
+@section TitleBar
+{
+    <li class="current"> <a href="https://localhost:44374/Home"> Home </a> </li>
+    <li> <a href="https://localhost:44374/Overview"> Overview </a> </li>
+    <li> <a href="https://localhost:44374/Portfolio"> Portfolio </a> </li>
+    <li> <a href="https://localhost:44374/Contributions"> Contributions </a> </li>
+    <li> <a href="https://localhost:44374/About"> About </a> </li>
+    <li> <a href="https://localhost:44374/Contact"> Contact </a> </li>
+}

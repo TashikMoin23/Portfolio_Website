@@ -13,6 +13,11 @@ body
     overflow: hidden;
 }
 
+.head 
+{
+    background-color: #222222;
+}
+
 #showcase .container 
 {
     width: 80%;
@@ -26,15 +31,15 @@ ul
     padding: 0;
 }
 
-header 
-{
+header {
     background: rgb(20, 20, 20);
+    background-color: #1F1F1F;
     color: gray;
     padding-top: 8px;
     padding-bottom: 8px;
     min-height: 40px;
     border-bottom: sienna 2px solid;
-    border-top: black 3px solid;
+    border-top: #222222 3px solid;
 }
 
 header a 
@@ -62,6 +67,7 @@ header #branding
 header #branding h1 
 {
     margin: 0;
+    color: whitesmoke;
 }
 
 header nav 
@@ -88,9 +94,9 @@ header a:hover
     font-weight: bold;
 }
 
-#showcase 
+#showcase-home
 {
-    background: url('../img/workspace_1.jpg') no-repeat -180px -50px;
+    background: url('../img/WorkSpace.jpg') no-repeat -180px -50px;
     color: wheat;
     object-fit: contain;
     padding-top: 13%;
@@ -100,7 +106,7 @@ header a:hover
     border-bottom: grey 1px solid;
 }
 
-#showcase img 
+#showcase-home img 
 {
     border-radius: 50%;
     width: 20%;
@@ -108,13 +114,13 @@ header a:hover
     box-shadow: 8px 8px 5px black;
 }
 
-#showcase img:hover 
+#showcase-home img:hover 
 {
     width: 21%;
     height: 12%;
 }
 
-#showcase h1 
+#showcase-home h1 
 {
     font-size: 65px;
     color: whitesmoke;
@@ -133,10 +139,24 @@ header a:hover
     color: snow;
 }
 
-#boxes 
+.introduction 
 {
-    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
+
+.introduction h3 
+{
+    text-shadow: 4px 4px 7px red;
+}
+
+
+#boxes {
+    background-color: #202020;
+}
+
+
 
 #boxes .container 
 {
@@ -181,6 +201,11 @@ header a:hover
     margin: 10px;
 }
 
+#boxes .box p
+{
+    font-size:large;
+}
+
 .box img 
 {
     width: 150px;
@@ -212,13 +237,32 @@ header a:hover
     transition: 0.5s;
 }
 
+
+#boxes-x 
+{
+    background-color: #1F1F1F;
+}
+
+#boxes-x .container 
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#boxes-x .box 
+{
+    color: white;
+}
+
 footer 
 {
     padding: 0.5%;
     margin-top: 0%;
-    color: orange;
-    background-color: black;
+    color: whitesmoke;
+    background-color: #202020;
     text-align: center;
-    border-top: grey 1px solid;
-    border-bottom: grey 1px solid;
+    border-top: #202020 1px solid;
+    border-bottom: #202020 1px solid;
 }
+

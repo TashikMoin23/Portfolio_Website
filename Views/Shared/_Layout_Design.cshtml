@@ -12,19 +12,14 @@
 
 <body>
 
-    <header>
+    <header class="head">
         <div class="container">
             <div id="branding">
                 <h1> <img src="~/Img/TM.png" width="27" height="27" alt="Logo"> <span class="highlight">             Portfolio </span> Website </h1>
             </div>
             <nav>
                 <ul>
-                    <li class="current"> <a href="https://localhost:44374/Home"> Home </a> </li>
-                    <li> <a href="https://localhost:44374/Overview"> Overview </a> </li>
-                    <li> <a href="https://localhost:44374/Portfolio"> Portfolio </a> </li>
-                    <li> <a href="https://localhost:44374/Contributions"> Contributions </a> </li>
-                    <li> <a href="https://localhost:44374/About"> About </a> </li>
-                    <li> <a href="https://localhost:44374/Contact"> Contact </a> </li>
+                    @RenderSection("TitleBar", required: true )
                 </ul>
             </nav>
         </div>
@@ -32,9 +27,20 @@
 
 
 
+    @if (IsSectionDefined("DisplayPicture"))
+    {
 
-    <section id="showcase">
-        @RenderBody();
+            @RenderSection("DisplayPicture", required: true);
+    }
+    else
+    {
+        <section id="showcase">
+            @RenderBody();
+        </section>
+    }
+
+    <section id="boxes-x">
+        @RenderSection("Experience", required: false);
     </section>
 
 
@@ -100,7 +106,7 @@
 
     </section>
 
-    <footer> Tashik Moin's Portfolio, Copyright &copy; 2020 </footer>
+    <footer> Copyright &copy; 2020 Tashik Moin </footer>
 
 
     <script src="~/JavaScript/script.js"></script>
