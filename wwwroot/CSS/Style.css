@@ -40,7 +40,12 @@ header {
     min-height: 40px;
     border-bottom: sienna 2px solid;
     border-top: #222222 3px solid;
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
 }
+
+
 
 header a 
 {

@@ -19,7 +19,7 @@
             </div>
             <nav>
                 <ul>
-                    @RenderSection("TitleBar", required: true )
+                    @RenderSection("TitleBar", required: true)
                 </ul>
             </nav>
         </div>
@@ -30,7 +30,7 @@
     @if (IsSectionDefined("DisplayPicture"))
     {
 
-            @RenderSection("DisplayPicture", required: true);
+        @RenderSection("DisplayPicture", required: true);
     }
     else
     {
@@ -110,6 +110,7 @@
 
 
     <script src="~/JavaScript/script.js"></script>
+    <script src="~/JavaScript/NavbarOnScroll.js"></script>
 </body>
 
 </html>
