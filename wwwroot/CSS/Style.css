@@ -100,7 +100,6 @@ header a:hover
 }
 
 #showcase-home {
-    background: url('../img/WorkSpace.jpg') no-repeat -180px -50px;
     color: wheat;
     object-fit: contain;
     padding-top: 13%;
@@ -112,7 +111,7 @@ header a:hover
 
 #showcase-home img 
 {
-    border-radius: 50%;
+    border-radius: 80%;
     width: 20%;
     height: 10%;
     box-shadow: 8px 8px 5px black;
@@ -220,12 +219,10 @@ color: snow;
     color: whitesmoke;
     display: flex;
     justify-content: center;
+    text-shadow: 4px 4px 4px black;
 }
 
-.introduction h3 
-{
-    text-shadow: 4px 4px 7px red;
-}
+
 
 
 #boxes {
