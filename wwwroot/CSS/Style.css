@@ -99,8 +99,7 @@ header a:hover
     font-weight: bold;
 }
 
-#showcase-home
-{
+#showcase-home {
     background: url('../img/WorkSpace.jpg') no-repeat -180px -50px;
     color: wheat;
     object-fit: contain;
@@ -135,13 +134,85 @@ header a:hover
     text-shadow: 4px 4px 7px black;
 }
 
-#showcase p 
+#showcase-home p 
 {
     text-align: left;
     font-size: 30px;
     margin-top: 0px;
     padding-top: 0px;
     color: snow;
+}
+
+#showcase-overview 
+{
+    color: wheat;
+    object-fit: contain;
+    padding-top: 13%;
+    padding-bottom: 7%;
+    background-position: center;
+    background-size: 150vmax;
+    border-bottom: grey 1px solid;
+    transition: 0.3s;
+}
+
+#showcase-overview h1 
+{
+    font-size: 65px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 0%;
+    margin-top: 0%;
+    text-shadow: 4px 4px 7px black;
+}
+
+#showcase-overview p 
+{
+    text-align: left;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: snow;
+}
+
+#showcase-contact 
+{
+    background: url('../img/WorkSpace.jpg') no-repeat -180px -50px;
+    color: wheat;
+    object-fit: contain;
+    padding-top: 13%;
+    padding-bottom: 7%;
+    background-position: center;
+    background-size: 150vmax;
+    border-bottom: grey 1px solid;
+}
+
+#showcase-contact img 
+{
+border-radius: 50%;
+width: 20%;
+height: 10%;
+box-shadow: 8px 8px 5px black;
+}
+
+
+
+#showcase-contact h1 
+{
+font-size: 65px;
+color: whitesmoke;
+text-align: center;
+padding-top: 0%;
+margin-top: 0%;
+text-shadow: 4px 4px 7px black;
+}
+
+#showcase-contact p 
+{
+text-align: left;
+font-size: 30px;
+margin-top: 0px;
+padding-top: 0px;
+color: snow;
 }
 
 .introduction 

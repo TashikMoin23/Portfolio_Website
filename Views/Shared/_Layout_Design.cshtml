@@ -27,16 +27,10 @@
 
 
 
-    @if (IsSectionDefined("DisplayPicture"))
+    @if (IsSectionDefined("DisplayBackground"))
     {
 
-        @RenderSection("DisplayPicture", required: true);
-    }
-    else
-    {
-        <section id="showcase">
-            @RenderBody();
-        </section>
+        @RenderSection("DisplayBackground", required: true);
     }
 
     <section id="boxes-x">
@@ -111,6 +105,11 @@
 
     <script src="~/JavaScript/script.js"></script>
     <script src="~/JavaScript/NavbarOnScroll.js"></script>
+    @if (IsSectionDefined("OverviewSlider"))
+    {
+
+        @RenderSection("OverviewSlider", required: true);
+    }
 </body>
 
 </html>
