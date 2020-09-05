@@ -45,11 +45,11 @@ TypeWriter.prototype.type = function ()
     setTimeout(() => this.type(), typeSpeed)
 }
 
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => { init('.txt-type'); init('.txt-type-1'); } );
 
-function init()
+function init( Query )
 {
-    const txtElement = document.querySelector('.txt-type');
+    const txtElement = document.querySelector(Query);
     const words = JSON.parse(txtElement.getAttribute('data-words'));
     const wait = txtElement.getAttribute('data-wait');
     new TypeWriter(txtElement, words, wait);

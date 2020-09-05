@@ -87,7 +87,7 @@ header #branding h1
     color: whitesmoke;
 }
 
-.txt-type 
+.txt-type,.txt-type-1
 {
     color: whitesmoke;
     font-size: 80%;
@@ -98,7 +98,7 @@ header #branding h1
     font-weight: bolder;
 }
 
-.txt-type > .txt 
+.txt-type > .txt , .txt-type1 > .txt
 {
     border-right: 0.2rem solid whitesmoke;
 }
