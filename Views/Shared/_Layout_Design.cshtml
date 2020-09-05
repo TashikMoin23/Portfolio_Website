@@ -29,7 +29,6 @@
 
     @if (IsSectionDefined("DisplayBackground"))
     {
-
         @RenderSection("DisplayBackground", required: true);
     }
 
@@ -106,11 +105,8 @@
     <script src="~/JavaScript/script.js"></script>
     <script src="~/JavaScript/NavbarOnScroll.js"></script>
     <script src="~/JavaScript/Write-Erase-Write-Text.js"></script>>
-    @if (IsSectionDefined("HomeSlider"))
-    {
+    <script src="~/JavaScript/BackgroundSlider.js"></script>
 
-        @RenderSection("HomeSlider", required: true);
-    }
 </body>
 
 </html>
