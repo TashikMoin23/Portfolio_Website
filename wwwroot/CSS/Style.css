@@ -51,7 +51,7 @@ header
     padding-top: 8px;
     padding-bottom: 8px;
     min-height: 40px;
-    border-bottom: sienna 2px solid;
+    border-bottom: grey 2px solid;
     border-top: #222222 3px solid;
     position: fixed;
     width: 100%;
@@ -93,7 +93,7 @@ header #branding h1
 .txt-type,.txt-type-1
 {
     color: whitesmoke;
-    font-size: 1.2vw;
+    font-size: 100px;
     display: flex;
     justify-content: center;
     text-shadow: 400px 400px 400px black;
@@ -103,12 +103,12 @@ header #branding h1
 
 .txt-type
 {
-    font-size:4vw;
+    font-size:2em;
 }
 
 .txt-type > .txt , .txt-type1 > .txt
 {
-    border-right: 0.2rem solid whitesmoke;
+    border-right: 0.1em solid whitesmoke;
 }
 
 @media screen and (min-width: 500px) 
@@ -152,7 +152,6 @@ header #branding h1
     font-size: 90%;
     color: whitesmoke;
     width:90%;
-    font-weight: 300;
     border: 8px;
     border-color: transparent;
     border-bottom-color: black;
@@ -223,7 +222,8 @@ header #branding h1
     color: black;
 }
 
-::placeholder {
+::placeholder 
+{
     color: whitesmoke;
     opacity: 1;
     font-weight: 700;
@@ -249,7 +249,9 @@ header #branding h1
     margin-bottom:1em;
     box-shadow: 3px 3px 10px black;
     position:center;
-   
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:1em;
 }
 
 .form h2 
@@ -310,10 +312,11 @@ header a:hover
     background-size: cover;
 }
 
-#showcase-contact
+#showcase-contact 
 {
     padding-top: 5%;
     padding-bottom: 6%;
+    background-image: url('../img/home-background-4.jpg');
 }
 
 
@@ -424,7 +427,7 @@ header a:hover
 
 #boxes h2:hover 
 {
-    color: tan;
+    color: whitesmoke;
     transform: scale(1.5);
     text-align: center;
     transition: 0.5s;
