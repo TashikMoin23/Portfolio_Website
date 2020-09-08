@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
 
 body 
 {
-    font-family: 'Raleway', sans-serif;
+    font-family: Candara, sans-serif;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
@@ -13,7 +12,6 @@ body
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Raleway', sans-serif;
 }
 
 .container 
@@ -81,6 +79,7 @@ header #branding
 {
     float: left;
     margin-top: 0px;
+    padding-top:1px;
 }
 
 header #branding h1 
@@ -88,6 +87,12 @@ header #branding h1
     font-weight: 200;
     margin: 0.4rem;
     color: whitesmoke;
+}
+
+#branding h1
+{
+    padding-top:0%;
+    margin-top:0%;
 }
 
 .txt-type,.txt-type-1
@@ -109,6 +114,7 @@ header #branding h1
 .txt-type > .txt , .txt-type1 > .txt
 {
     border-right: 0.1em solid whitesmoke;
+    padding-right:10px;
 }
 
 @media screen and (min-width: 500px) 
@@ -454,9 +460,10 @@ header a:hover
     margin: 0px;
 }
 
-#boxes .box p
+#boxes .box p 
 {
-    font-size:large;
+    font-size: large;
+    font-family: Candara, sans-serif;
 }
 
 .box img 
