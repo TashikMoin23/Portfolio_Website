@@ -551,7 +551,7 @@ footer
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 100vh;
+    height: 102.5vh;
     overflow-x: hidden;
 }
 
@@ -600,7 +600,7 @@ footer
 .arrow 
 {
     cursor: pointer;
-    position: absolute;
+    position:static;
     top: 50%;
     margin-top: -35px;
     width: 0;
@@ -610,7 +610,7 @@ footer
 
 #arrow-left 
 {
-    border-width: 30px 40px 30px 0;
+    border-width: 15px 30px 15px 0;
     border-color: transparent #fff transparent transparent;
     left: 0;
     margin-left: 30px;
@@ -618,7 +618,7 @@ footer
 
 #arrow-right 
 {
-    border-width: 30px 0 30px 40px;
+    border-width: 15px 0 15px 30px;
     border-color: transparent transparent transparent #fff;
     right: 0;
     margin-right: 30px;
