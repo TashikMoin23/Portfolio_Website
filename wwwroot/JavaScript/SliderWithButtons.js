@@ -1,45 +1,49 @@
-﻿var slider_content = document.getElementById('box');
+﻿let sliderImages = document.querySelectorAll(".slide"),
+    arrowLeft = document.querySelector("#arrow-left"),
+    arrowRight = document.querySelector("#arrow-right"),
+    current = 0;
 
-// contain images in an array
-var image = ['/Img/Home-background-1', '/Img/Home-background-2', '/Img/Home-background-3', '/Img/Home-background-4', '/Img/Home-background-5'];
-
-var i = image.length;
-
-
-// function for next slide 
-
-function nextImage()
-{
-    if (i < image.length)
-    {
-        i = i + 1;
+// Clear all images
+function reset() {
+    for (let i = 0; i < sliderImages.length; i++) {
+        sliderImages[i].style.display = "none";
     }
-    else
-    {
-        i = 1;
-    }
-    slider_content.innerHTML = "<img src=" + image[i - 1] + ".jpg>";
 }
 
-
-// function for prev slide
-
-function prevImage()
-{
-
-    if (i < image.length + 1 && i > 1)
-    {
-        i = i - 1;
-    }
-    else
-    {
-        i = image.length;
-    }
-    slider_content.innerHTML = "<img src=" + image[i - 1] + ".jpg>";
-
+// Init slider
+function startSlide() {
+    reset();
+    sliderImages[0].style.display = "block";
 }
 
+// Show prev
+function slideLeft() {
+    reset();
+    sliderImages[current - 1].style.display = "block";
+    current--;
+}
 
-// script for auto image slider
+// Show next
+function slideRight() {
+    reset();
+    sliderImages[current + 1].style.display = "block";
+    current++;
+}
 
-setInterval(nextImage, 4000);
+// Left arrow click
+arrowLeft.addEventListener("click", function () {
+    if (current === 0) {
+        current = sliderImages.length;
+    }
+    slideLeft();
+});
+
+// Right arrow click
+arrowRight.addEventListener("click", function () {
+    if (current === sliderImages.length - 1) {
+        current = -1;
+    }
+    slideRight();
+});
+
+startSlide();
