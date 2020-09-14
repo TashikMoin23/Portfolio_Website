@@ -174,6 +174,13 @@ header #branding h1
     border-bottom-color:#656565;
 }
 
+.controls input:hover 
+{
+    border-color: transparent;
+    border-bottom-color: black;
+    border-style: solid;
+}
+
 .controls textarea
 {
     border:1px grey;
@@ -535,95 +542,39 @@ footer
 
 /* overview slider*/
 
-.slidershow 
+
+#showcase-overview img 
 {
     width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
+    height: 750px;
 }
 
-
-.navigation 
+button 
 {
-    margin:0%;
-    position:absolute;
-    left: 50%;
-    bottom: 9%;
-    padding: 0%;
-    transform: translateX(-50%);
-    display: flex;
-}
-
-.bar 
-{
-    width: 10px;
-    height: 10px;
-    border: 2px solid #fff;
-    margin: 6px;
+    margin:0px;
+    padding: 20px;
+    border: none;
+    background: grey;
+    font-size: 30px;
+    color: white;
+    position:unset;
+    text-align:center;
     cursor: pointer;
-    transition: 0.3s;
-    border-radius:100%;
 }
 
-.bar:hover 
+button:hover 
 {
-    background: #fff;
+    border: 3px black;
+    background: grey;
 }
 
-input[name="r"] 
+.next 
 {
-    position: absolute;
-    visibility: hidden;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 950px;
 }
 
-.slides 
+.prev 
 {
-    width: 500%;
-    height: 120%;
-    display: flex;
-    padding:0px;
-    margin:0px;
-}
-
-.slide 
-{
-    width: 20%;
-    transition: 0.6s;
-    padding: 0px;
-    margin: 0px;
-}
-
-.slide img 
-{
-    width: 100%;
-    height: 100%;
-    padding:0px;
-    margin:0px;
-}
-
-#r1:checked ~ .s1 
-{
-    margin-left: 0;
-}
-
-#r2:checked ~ .s1 
-{
-    margin-left: -20%;
-}
-
-#r3:checked ~ .s1 
-{
-    margin-left: -40%;
-}
-
-#r4:checked ~ .s1 
-{
-    margin-left: -60%;
-}
-
-#r5:checked ~ .s1 
-{
-    margin-left: -80%;
+    border-radius: 0px 10px 10px 0px;
 }
