@@ -379,35 +379,18 @@ header a:hover
     padding-top: 0%;
     padding-bottom: 0%;
     background-position: center;
-    background-size: 150vmax;
-    background-color:#202020;
+    background-size: 170vmax;
+    background-color: #0F0F0F;
     border-bottom: grey 1px solid;
     transition: 0.3s;
-    height: 750px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#showcase-overview h1 
-{
-    font-size: 65px;
-    color: whitesmoke;
-    text-align: center;
-    padding-top: 0%;
-    margin-top: 0%;
-    text-shadow: 4px 4px 7px black;
-}
 
-#showcase-overview p 
-{
-    text-align: left;
-    font-size: 30px;
-    margin-top: 0px;
-    padding-top: 0px;
-    color: snow;
-}
 
 
 .introduction 
@@ -547,12 +530,18 @@ footer
 #slider,
 .slide-content 
 {
-    margin: 0;
-    padding: 0;
+    margin: 0em;
+    padding: 0em;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 102.5vh;
+    height: 130vh;
     overflow-x: hidden;
+}
+
+#slider
+{
+    margin-top:0%;
+    margin-bottom:0%;
 }
 
 .wrap 
@@ -565,20 +554,28 @@ footer
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
 }
 
 .slide1 
 {
-    background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../img/overview-slide-1.png');
 }
 
 .slide2 
 {
+    padding: 0px;
+    margin: 0px;
     background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
 }
 
 .slide3 
 {
+    padding:0px;
+    margin:0px;
     background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
 }
 
@@ -589,6 +586,8 @@ footer
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding:0px;
+    margin:0px;
 }
 
 .slide-content span 
@@ -600,7 +599,7 @@ footer
 .arrow 
 {
     cursor: pointer;
-    position:static;
+    position: static;
     top: 50%;
     margin-top: -35px;
     width: 0;
@@ -613,7 +612,7 @@ footer
     border-width: 15px 30px 15px 0;
     border-color: transparent #fff transparent transparent;
     left: 0;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 #arrow-right 
@@ -621,5 +620,5 @@ footer
     border-width: 15px 0 15px 30px;
     border-color: transparent transparent transparent #fff;
     right: 0;
-    margin-right: 30px;
+    margin-right: 0px;
 }
