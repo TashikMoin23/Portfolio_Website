@@ -380,7 +380,7 @@ header a:hover
     padding-bottom: 0%;
     background-position: center;
     background-size: 170vmax;
-    background-color: #0F0F0F;
+    background-color: whitesmoke;
     border-bottom: grey 1px solid;
     transition: 0.3s;
     height: 100%;
@@ -609,16 +609,16 @@ footer
 
 #arrow-left 
 {
-    border-width: 15px 30px 15px 0;
-    border-color: transparent #fff transparent transparent;
+    border-width: 15px 15px 15px 15px;
+    border-color: black;
     left: 0;
     margin-left: 0px;
 }
 
 #arrow-right 
 {
-    border-width: 15px 0 15px 30px;
-    border-color: transparent transparent transparent #fff;
+    border-width: 15px 15px 15px 15px;
+    border-color: black;
     right: 0;
     margin-right: 0px;
 }
